@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bolas! Forças</title>
+        <link rel="stylesheet" type="text/css" href="external/css/2015-03-25_13-52-05__grid.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="external/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="external/ionicons-master/docs/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/stylePA.css">
+    </head>
+    
+    <body>
+        <header>
+            <div class="BG">
+                <div class="homeBtn"><a href="../index.html">Portifólio <p>Ricardo Brandolt Júnior<p></p></a></div>
+                <nav id="mainNav">
+                    <div class="row">
+                        <ul class="mainNav">
+                            <li><a href="../materialDidatico.html">Material Didático</a></li>
+                            <li><a href="../Producao_Bibliografica.html">Produção Bibliográfica</a></li>
+                            <li><a href="../producao_Estudante.html">Produção de Estudantes</a></li>
+                            <li><a href="../Material_Biblio.html">Material Bibliográfico</a></li>
+                        </ul>
+                    </div>                
+                </nav>
+            </div>
+        </header>
+        <section class="schoolInfo">
+            <div class="row">
+                <ul class="schoolInfoTopics">
+                    <li>Professores: Ricardo Brandolt Júnior</li>
+                    <li>Turma: 77</li>
+                    <li>Data: 22/01/2021</li>
+                    <li>Horário: 16:00 - 17:30</li>
+                    <li>Professor Supervisor: Eugenio Maria de França Ramos</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="schoolInfo">
+            <h3>Objetivos</h3>
+            <ul class="topics">
+                <li>Quais conhecimentos que se pretendem que os alunos dominem ao final da aula.</li>
+                <p>Entendam o surgimento de uma força como variação da quantidade de movimento de um sistema</p>
+                <li>Quais Habilidades?</li>
+                <p>Análise dimensional</p>
+                <p>Ler um gráfico de Velocidade contra Tempo e intuir sobre aceleração e espaço percorrido.</p>
+                <li>Indique, se necessário, outras informações.</li>
+            </ul>
+            
+            <h3>Conteúdo</h3>
+            <ul class="topics">
+                <li>Indique detalhadamente todos os passos de desenvolvimento da aula .</li>
+                <p><strong>Introdução</strong></p>
+                <p>Para iniciar este encontro a mesma tabela anteriormente construída com as massas das bolas é aberta e agora pode ser incrementada com as estimativas de velocidades e suas quantidades de movimento. Após completa, uma comparação dos diferentes valores de quantidade de movimento pode ser feita e pedir que os alunos interpretem como essas quantidades afetam o esporte.</p>
+                <div class='edit'>Novamente na turma 77  NINGUÉM buscou as velocidades ou calculou as quantidades de movimento pedidas no último encontro.</div>
+                <div class='edit'>O início de comparação das quantidades de movimento foi adaptado no momento para uma discussão quanto a rigidez de uma bola. Ao invés de comparar o valor da quantidade de movimento, eu abri a apostila e mostrei a figura da bola de tênis esmagada e o vídeo da bola de bilhar rigida enquanto a ponta do taco se deforma ao contato. A bola de tênis é facilmente deformada para aumentar sua interação com a raquete e facilitar técnicas de impor um certo giro à bola, o mesmo é observado em tênis de mesa mas nesse esporte a raquete tem uma superfície deformável ao invés da bola. A disucssão foi bastante breve mas teve bastante participação espontânea dos alunos com conhecimento de física, não consegui incluir os dois com dificuldade neste momento inicial.</div>
+                <p>Feitas as introduções e recordações, a pergunta principal da discussão é lançada: "Como a bola ganha velocidade?"</p>
+                <p><strong>Pré-Discussão</strong></p>
+                <p>Antes de mergulhar no assunto central da aula, farei um breve recordação sobre análise dimensional e mudança de unidades.</p>
+                <p>A unidade mais comume de velocidade é quilômetros por hora, exatamente isso que observamos no velocímetro de um carro. Esse número indica, como o "falar" indica, a quantidade de quilômetro que um corpo irá movimentar-se a cada uam hora passada. Até então, em todos os encontros utilizamos a unidade m / s (metros por segundo). Sua interpretação é exatamente a mesma, a quantidade de metros que uma bola irá movimentar-se após um segundo. As duas unidades estão intimamento relacionadas, mas como?</p>
+                <p>1 quilômetro equivale a 1000 metros, ou seja, podemos escrever: 1000 m = 1 km</p>
+                <p>1 hora equivale a 3600 segundos, ou seja, podemos escrever? 1 h = 3600 s</p>
+                <p>Então, se temos um valor em quilômetro por hora e queremos converter para metros por segundo podemos substituir os valores: V = 10 km / h = 10 (1000 m) / (3600 s) = 2.8 m/s</p>
+                <p>Essa análise também é válida para converter um tipo de unidade em outro tipo de unidade. Por exemplo, se temos agora um valor em m/s (metros por segundo), mas desejamos um número em apenas m (metros) basta multiplicar a velocidade por uma quantidade de segundos: V = (10 m / s)*(5 s) = 5*10 (m)*(s)/(s) = 50 m</p>
+                <p>Igualmente, se temos uma quantidade de velocidadeem metros por segundo e desejamos uma quantidade de horas, basta dividir a quantidade de metros pela velocidade: s = (5000 m) / ( 10 m / s) = (5000 / 10) * (m/m) * (s) = 500 s. Depois converter esse número para horas: h = 500 s = (500/3600) h = 0.1 h</p>
+                <div class='edit'>A seguinte imagem foi construída em aula com a turma 77.</div>
+                <img src="../content/ProjetoBolas!/images/analiseDim.jpg" style="width:40%">
+                <p><strong>Discussão</strong></p>
+                <p>Essa rapida revisão de análise dimensional e uma forma de obter a equação de movimento gerou a relação que a quantidade de metros é o produto V*t. após sanar qualquer dúvida sobre esse assunto, podemos tratar de duas ferramentas usadas nesta aula: análise por gráfico e o programa Tracker. Desde este primeiro momento digo a todos que o último encontro será totalmente focado em os alunos utilziarem o programa para fazer sua própria análise e peço que ao final do encontro baixem e insatlem o programa. Como todos estão utilziando um computador para participar da aula, não deve haver problema de acessibilidade.</p>
+                <p>Compartilho a tela e os primeiros minutos são instruções - no estilo de tutorial "clique aqui e depois aqui" - de como utilizar o programa para analisar o vídeo de um jogador chutando uma bola e como produzir um gráfico Vxt.</p>
+                <p>Um detalhe importante: o algoritmo de busca de pontos é relativamente rápido, mas imagino que num modelo "tutorial" o tempo durante a procura dos pontos irá produzir um silêncio chato. Para evitar essa situação, vou esconder os gráficos da barra direita e enqquanto o programa trabalha posso direcionar algumas perguntas para os alunos: "A bola estava parada e derrepente o jogador a chuta e ela começa a se movimentar. O estado de movimento da bola foi alterado?", "Como o estado de movimento foi alterado, o que aconteceu com a quantidade de movimento da bola?". Com essas duas perguntas posso formalizar um pouco mais o conceito de força como uma variação da quantidade de movimento. A velocidade da bola aumentou de zero para algum valor e para ocorrer esse aumento é necessário uma força.</p>
+                <p>Após o programa finalizar a busca pelos pontos os gráficos serão exibidos e os alunos farão a atividade (a).</p>
+                <img src="../content/ProjetoBolas!/images/Tracker1.png" style="width:80%">
+                <div class="edit">Para a turma 77, a atividade (a) não foi entregue. Ao invés disso os alunos com formação em física se animaram com os resultados e discutiram entre si o comportamento e aplicações em sala de aula. Meu papel principal neste momento foi interromper eles para incluir mais os outros dois com mais dificuldade de acompanhar a discussão.</div>
+                <p>Responder as perguntas não deve demorar mais do que trinta minutos, as perguntas são corrigidas com todos e após dúvidas serem sanadas a discussão será avançada com mais uma pergunta: "Aqui é a primeira vez que falamos sobre a aceleração da bola, o que ela representa?", provavelmente haverá alguma relação entre o momento do chute com a aceleração por causa da figura e do vídeo também pela semelhança entre os instantes de aumento de velocidade, espaço e o pico da aceleração. O objetivo é concluir com todos que a aceleração descreve a variação da velocidade sem entrar em detalhes de derivações ou diferenças.</p>
+                <p>A discussão é direcionada para recordar algumas conclusões de eoncontros anteriores: "Lembrem-se da análise da finta que fizemos, por que o jogador defensor foi menos ágil que o atacante e foi fintado?". Se for necessário posso mostrar novamente os vídeos das fintas e relembrar que a impossibilidade de executar uma força é o fator principal da falha da defesa. Sem uma força não é possível alterar seu estado de movimento.</p>
+                <p>Então existe uma relação íntima entre a força e a aceleração, afinal observamos que esses dois conceitos estão relacionados com essa frase "alterar a quantidade de movimento", que neste ponto dos encontros, deverá estar carregada de significado para todos os aluinos. Posso então relacionar a equação da quantidade de movimento e as ideias em torno dele com a equação da força e apresentá-la pela primeira vez: F=ma. Da mesma maneira que se interpreta a equação da quantidade de movimento: mais massa ou mais velocidade aumenta a quantidade de movimento. Mais massa ou mais aceleração representam valores maiores de força, já que uam força é uma representação da alteração da quantidade de movimento.</p>
+                <div class='edit'>Um desafio de utilizar este plano com a turma 77 foi reduzir o tempo de discussão do exemplo da bola. Honestamente, a adaptação de juntar essa discussão com a seguinte sobre decomposição de movimentos não foi bem sucedida. Baseada nas interações anteriores, não imaginei que as discussões sobre rigidez da bola e da utilziação do Tracker para análise de vídeo fossem se prolongar. Para concluir o conteúdo eu ignorei boa parte do próximo encontro e ainda atrasei 15 min. a finalização da aula. </div>
+                
+            </ul>
+            <ul class="topics">
+              <li>Estudo do chute</li>
+              <p>O gráfico de espaço contra tempo pode ser dividido em dois pedaços, um com o traçado do gráfico exatamente sobre o valor de X = 0 m e outro com uma reta inclinada. Como essas duas retas representam o vídeo do chute?</p>
+              <p>O gráfico de velocidade contra tempo também pode ser dividido em dois pedaços, mas os dois são retas horizontais. Um pedaço exatamente sobre o valor de V = 0 m/s o segundo em torno do valor de V = 0.2 m/s, como essas duas retas representam o vídeo do chute?</p>
+              <p>O gráfico de aceleração contra tempo é aproximadamente igual a zero para todos os valores de tempo, mas em t = 7 s ele aumenta derrepente para 0.3 m/sˆ2. O que esse aumento representa do vídeo?</p>
+              <p>Calcule a quantidade de movimento da bola antes e depois do chute.</p>
+              <p>Perceba que o gráfico da velocidade contra o tempo tem geometria de um retângulo após o chute. Calcule a área do retângulo do gráfico da velocidade após o chute, lembre que a área de retângulo é igual ao produto do seus lados: A = l*L, onde A é a área, l é o lado menor e L é o lado maior.</p>
+              <p>Ao final do movimento, qual o valor da posição da bola indicado pelo gráfico de espaço contra tempo? Compare esse valor com o resultado da pergunta anterior.</p>
+                <li>Indique, se necessário, Materiais complementares.</li>
+            </ul>
+            <h3>Tarefas</h3>
+            <div class = "edit">Para a turma 77 essa tarefa foi dada ao final do último encontro porque um dos professores de física pediu o roteiro de perguntas.</div>
+            <ul class="topics">
+                <li>Como tarefa os alunos terão oportunidade de passar a limpo a atividade feita em sala para ser entregue. A correção não será formalmente escrita, mas será uma resposta discutida informalmente de cada questão, os alunos serão responsáveis por escrever suas conclusões.</li>
+            </ul>
+            
+
+            <h3>Avaliação</h3>
+            <ul class="topics">
+                <li>Avaliação 1</li>
+                <p>O momento inicial de compeltar a tabela, comparar os valores e questionar qual o efeito sobre o esporte é uma ótima oportunidade de avaliar a compreensão dos alunos sobre os assuntos anteriores. Não há necessidade de limitar o questionamento para a quantidade de movimento em si, mas também sobre os conceitos de inércia e ação e reação. O ponto chave é avaliar a compreensão conceitual antes da próxima atividade prática do próximo encontro.</p>
+                <li>Avaliação 2</li>
+                <p>No momento da correção oral, é interessante pedir que alguns alunos alvo respondam para avalair como sua compreensão evoluiu.</p>
+                <li>Avaliação 3</li>
+                <p>A pergunta de recordar a finta pode ser direcionada mesmo que alguém se prontifique para forçar alguns alunos a tentar re-avaliar o exmeplo da finta. Talvez com o passar da semana e com os novos conteúdos as respostas estejam mais adequadas.</p>
+            </ul>
+            
+            <h3>Análsie do Conteúdo</h3>
+            <ul class="topics">
+                <li>A relevância para a formação do estudante.</li>
+                <p>Entender a origem de uma força é o princípio do entendimento de qualquer sistema real isso permite que o aluno faça observações e potencialmente experimentos e modificações em seu ambiente mais pauptadas em conceitos sólidos e reais oa invés de intuições simples. Além disso, os alunos tiveram contato, alguns deles pela primeira vez, com uma ferramenta de medição muito mais acurada e sensível que técnicas analógicas comumente vistas dentro da escolas.</p>
+                <li>As relações possíveis com o cotidiano dos alunos.</li>
+                <p>Entender o conceito de força profundamente permite olhar para o movimento de corpos e entender como ele acontece e muda. Esse conceito é algo extremamente natural e todos possuem alguma intuição do que é força, formalizar essa ideia é o que permitiu grandes mudanças no ambiente para tornar mais confortável nossas vidas. Um prédio não poderia ser alto se não entendessemos que forças do vento querem movimentá-lo e temos que criar sistemas que dissipem essas forças. Só com um entendimento fudnamental de força que se inicia uam jornada para grandes mudanças do espaço.</p>
+            </ul>
+            
+            <h3>Observação em retrospectiva</h3>
+            <p> A recepção dos professores de física a ferramenta foi surpreendentemente positiva, os comentários durante a aula saíram somente do fenômeno observado no programa e entrou, mesmo que superficialmente, em como levar a ferramenta para dentro da sala de aula. Me alegrou muito ver a professora de educação física, ao longo desta aula, comentando que gostaria de ministrar alguma de suas aulas ao lado de um professor de física para que seus alunos tenham "essa visão do esporte diferenciada".</p>
+        </section>
+    </body>
+    
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</html>

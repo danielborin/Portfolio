@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*roboto rules---> font-family: 'Roboto Mono', monospace;*/
+html{
+    color: #01172F;
+/*    background-color:#3E0C00;*/
+    background-color: #691400;
+    font-family: 'Montserrat', sans-serif, 'Arial',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+    text-align: justify;
+}
+.row{
+    margin: 0 auto;
+    width: 100hw;
+}
+h1,h2,h3{
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+   }
+h1{
+    font-size: 300%;  
+    line-height: 140%;
+    word-spacing: 4px;
+}
+.homeBtn{
+    position: absolute;
+    float: left;
+    padding: 20px 0px 0px 20px;
+}
+.homeBtn p{
+    font-size: 50%;
+    padding: 10px 0px 0px 0px;
+}
+.homeBtn a:link, .homeBtn a:visited {
+    color: #ffd57e;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+.homeBtn a:hover, .homeBtn a:active {
+    color: #08A4BD;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*HEADER STYLE*/
+.BG{
+    background-color: #500F00;
+    width: 100hw;
+    height: 150px;
+}
+.autor{
+    font-weight: 600;
+}
+.mainNav{
+    float:right;
+    list-style: none;
+    margin: 70px 40px 50px 40px;
+}
+.mainNav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.mainNav li a:link, .mainNav li a:visited{
+    color: #ffd57e;
+    padding-bottom: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    transition: border 0.2s, color 0.2s;
+    border-bottom: 1.5px solid transparent;
+}
+.mainNav li a:hover, .mainNav li a:active{
+    color: #08A4BD;
+    padding-bottom: 8px;
+    border-bottom: 1.5px solid #08A4BD;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+/*HEADER STYLE*/
+
+/*TXT-TITLE STYLE*/
+.textHead{
+    position: relative;
+    margin: 40px 40px 80px 40px;
+    color: #F7B6A7;
+}
+.textHead p{
+    margin: 16px 0px;;
+
+}
+.textHead a:link, .mainNav a:visited{
+    position: absolute;
+    right: 0;
+    top:0;
+    color: #ffd57e;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    transition: border 0.2s, color 0.2s;
+    border: 1.5px solid transparent;
+    border-radius: 20px;
+}
+.textHead a:hover, .mainNav a:active{
+    color: #08A4BD;
+    padding: 10px;
+    border: 1.5px solid #08A4BD;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+/*TXT-TITLE STYLE*/
+
+/*TXT-BODY STYLE*/
+.textBody{
+    margin: 40px;
+    color: #F7B6A7;
+}
+.textBody p{
+    margin: 12px 0px;
+    line-height:150%;
+}
+/*TXT-BODY STYLE*/
