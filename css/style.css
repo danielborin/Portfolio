@@ -58,7 +58,7 @@ header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(img/paradoxo_quantico_universo.jpg);
     background-size: cover;
     background-position: center;
-    height: 30vh;
+    height: 70%;
 }
 
 .mainNav{
