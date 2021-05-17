@@ -55,7 +55,7 @@ h1{
 }
 /* HOME PAGE HEADER STYLE*/
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(img/cerebro.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(img/paradoxo_quantico_universo.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
