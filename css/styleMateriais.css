@@ -1,7 +1,7 @@
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(img/thinker.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(img/cerebro.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 50% 80%;
     background-repeat:repeat-y;
     height: 100%;
     min-height: 1080px;
