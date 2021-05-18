@@ -38,13 +38,13 @@ h1{
     position: absolute;
     float: left;
     font-size: 50%;
-    padding: 50px 0px 0px 15px;
+    padding: 30px 0px 0px 20px;
 }
 .homeBtn f{
     position: absolute;
     float: left;
     font-size: 100%;
-    padding: 60px 0px 0px 20px;
+    padding: 25px 0px 0px 20px;
 }
 .homeBtn a:link, .homeBtn a:visited {
     color: #FFDEAD;
