@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*roboto rules---> font-family: 'Roboto Mono', monospace;*/
+html{
+    color: #01172F;
+    font-family: 'Montserrat', sans-serif, 'Arial',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+    text-align: justify;
+}
+.row{
+    margin: 0 auto;
+    width: 100hw;
+}
+h1,h2,h3{
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #000000;
+   }
+h1{
+    font-size: 300%;  
+    line-height: 140%;
+    word-spacing: 4px;
+}
+.homeBtn{
+    position: absolute;
+    float: left;
+    padding: 20px 0px 0px 20px;
+}
+.homeBtn p{
+    font-size: 50%;
+    padding: 10px 0px 0px 0px;
+}
+.homeBtn a:link, .homeBtn a:visited {
+    color: #00887f;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+.homeBtn a:hover, .homeBtn a:active {
+    color: #08A4BD;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.center{
+    display:block;
+    margin: 5px auto;
+}
+/*HEADER STYLE*/
+.BG{
+    background-color: #01172F;
+    width: 100hw;
+    height: 150px;
+}
+.autor{
+    font-weight: 600;
+}
+.mainNav{
+    float:right;
+    list-style: none;
+    margin: 70px 40px 50px 40px;
+}
+.mainNav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.mainNav li a:link, .mainNav li a:visited{
+    color: #00887f;
+    padding-bottom: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    transition: border 0.2s, color 0.2s;
+    border-bottom: 1.5px solid transparent;
+}
+.mainNav li a:hover, .mainNav li a:active{
+    color: #08A4BD;
+    padding-bottom: 8px;
+    border-bottom: 1.5px solid #08A4BD;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+/*HEADER STYLE*/
+
+/*SCHOOL INFORMATION STYLE*/
+.schoolInfo{
+    margin: 20px 20px;
+    width: 100hw;
+    border-bottom: solid;
+    border-bottom-width: 1.5px;
+    border-color: #08A4BD;
+}
+.schoolInfoTopics{
+    list-style: none;
+}
+.schoolInfoTopics li{
+    margin: 8px 8px;
+}
+.topics{
+    list-style:lower-alpha;
+}
+.topics{
+    margin-bottom: 25px;
+}
+.topics li{
+    margin: 8px 8px;
+}
+.topics p{
+    padding: 5px;
+}
+.topics img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.edit{
+    color: red;
+    font-size: 75%;
+}
