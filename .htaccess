@@ -6,5 +6,3 @@ RewriteRule ^(.*)$ $1.html
 
 
 DirectoryIndex index.html
-
-RewriteRule ^inicio$ index.html$ [L]
