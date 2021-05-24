@@ -1,2 +1,7 @@
 RewriteEngine On
 RewriteRule ^([0-9A-Za-z-_]+)$ /$1.html
+
+<!-- Redirecionar internamente as páginas sem extensão para o arquivo correspondente (crucial para o funcionamento da página) -->
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*?)/?$ $1.html [L]
