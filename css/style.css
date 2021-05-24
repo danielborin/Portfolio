@@ -61,7 +61,7 @@ h1{
 }
 /* HOME PAGE HEADER STYLE*/
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(img/2019-nobelArt.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)),url(img/universe.jpg);
     background-size: cover;
     background-position: bottom;
     height: 100vh; 
