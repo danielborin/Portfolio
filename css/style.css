@@ -34,12 +34,6 @@ h1{
     float: left;
     padding: 15px 0px 0px 30px;
 }
-.homeBtn f{
-    position: absolute;
-    float: left;
-    font-size: 100%;
-    padding: 15px 0px 0px 8px;
-}
 .homeBtn p{
     position: absolute;
     font-size: 50%;
@@ -64,8 +58,8 @@ h1{
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)),url(img/paradoxo_quantico_universo.jpg);
     background-size: cover;
-    background-position: bottom;
-    height: 90vh; 
+    background-position: 50% 80%;
+    height: 100vh; 
 }
 
 .mainNav{
