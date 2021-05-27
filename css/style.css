@@ -66,6 +66,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    top: -22px; 
 }
 
 .mainNav{
