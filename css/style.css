@@ -65,8 +65,8 @@ header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(img/2019-nobelArt.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    top: -22px; 
+    height: 140vh;
+    top: -20vh; 
 }
 
 .mainNav{
