@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(img/2019-nobelArt.jpg);
+    background-size: cover;
+    background-position: center;
 }
 /*roboto rules---> font-family: 'Roboto Mono', monospace;*/
 html{
@@ -55,9 +58,6 @@ h1{
 }
 /* HOME PAGE HEADER STYLE*/
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(img/2019-nobelArt.jpg);
-    background-size: cover;
-    background-position: center;
     height: 100vh;
 }
 
